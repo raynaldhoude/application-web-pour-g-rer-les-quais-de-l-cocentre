@@ -1,4 +1,4 @@
-
+/* CSS */
 * {
     margin: 0;
     padding: 0;
@@ -11,25 +11,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background-color: blue;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 200px); /* 4 colonnes de carrés */
+    grid-template-columns: repeat(4, 200px);  /* 4 colonnes de carrÃ©s */
     grid-gap: 20px;
 }
 
 .square {
     width: 200px;
-    height: 200px;
+    height:200px;
     display: flex;
-    justify-content: center;  /* Centrer horizontalement */
-    align-items: center;      /* Centrer verticalement */
-    color: white;
-    font-size: 60px;
+    justify-content: center;      /*  Centrer horizontalement */
+    align-items: center;           /*Centrer verticalement */
+    text-align: center;
+    color: black;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
+.nom_carre {
+    cursor: pointer;
+}
